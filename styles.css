@@ -71,7 +71,15 @@
     color: black;
     display: none !important;
 }
-    
+      .close-modal {
+    font-size: 4em;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    margin-top: -0.5em;
+    z-index: 1000;
+    margin-right: -10em;
+}
     
     .trustpilot {
         width: 300px;
@@ -1059,6 +1067,11 @@ img {
         text-align: center;
         margin-bottom:1em;
     }
+           .close-modal {
+           font-size: 3em;
+    cursor: pointer;
+    color: black;
+        }
         
     @keyframes fadeIn {
         to {
